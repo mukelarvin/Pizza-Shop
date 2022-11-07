@@ -4,7 +4,6 @@ public enum PizzaStatus {
 
 public class Pizza {
     let name: String
-    public var hotAndReady = false
     var status: PizzaStatus = PizzaStatus.waiting
 
     public init(name:String){
