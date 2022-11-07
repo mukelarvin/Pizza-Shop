@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug PizzaShop (Swift/PizzaShop)",
+            "program": "${workspaceFolder:Pizza-Shop}/Swift/PizzaShop/.build/debug/PizzaShop",
+            "args": [],
+            "cwd": "${workspaceFolder:Pizza-Shop}/Swift/PizzaShop",
+            "preLaunchTask": "swift: Build Debug PizzaShop (Swift/PizzaShop)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release PizzaShop (Swift/PizzaShop)",
+            "program": "${workspaceFolder:Pizza-Shop}/Swift/PizzaShop/.build/release/PizzaShop",
+            "args": [],
+            "cwd": "${workspaceFolder:Pizza-Shop}/Swift/PizzaShop",
+            "preLaunchTask": "swift: Build Release PizzaShop (Swift/PizzaShop)"
+        }
+    ]
+}
